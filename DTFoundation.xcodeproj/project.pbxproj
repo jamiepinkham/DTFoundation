@@ -233,13 +233,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7DECDE5A16727B6A00840CE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7F4DF9A147FB61500F4059A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7E383C1160DFEDB00CF72D6;
-			remoteInfo = DTHTMLParser;
-		};
 		FACE182C1611CF8400758319 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7F4DF9A147FB61500F4059A /* Project object */;
@@ -921,7 +914,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7DECDE5B16727B6A00840CE5 /* PBXTargetDependency */,
 			);
 			name = "Static Library";
 			productName = DTFoundation;
@@ -1334,11 +1326,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7DECDE5B16727B6A00840CE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7E383C1160DFEDB00CF72D6 /* DTHTMLParser */;
-			targetProxy = 7DECDE5A16727B6A00840CE5 /* PBXContainerItemProxy */;
-		};
 		FACE182D1611CF8400758319 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A70B4CE61486637E00873A4A /* Static Library */;
