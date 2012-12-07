@@ -17,7 +17,7 @@
 #import "DTAsyncFileDeleter.h"
 #import "DTDownload.h"
 #import "DTExtendedFileAttributes.h"
-#import "DTHTMLParser.h"
+#import <DTHTMLParser/DTHTMLParser.h>
 #import "DTPDFDocument.h"
 #import "DTVersion.h"
 #import "DTZipArchive.h"

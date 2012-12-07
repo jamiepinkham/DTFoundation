@@ -30,6 +30,7 @@
 		7D9CEC7A167297D70061D95B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = A77DD41014E825FC00F34B03 /* mztools.c */; };
 		7D9CEC7B167297D70061D95B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = A77DD41214E825FC00F34B03 /* unzip.c */; };
 		7D9CEC7C167297D70061D95B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = A77DD41414E825FC00F34B03 /* zip.c */; };
+		7D9CED6216729C330061D95B /* DTHTMLParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7949A3814C963F500A8CCDE /* DTHTMLParser.h */; };
 		7DECDED116728C3C00840CE5 /* DTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A70B4CC51486621B00873A4A /* DTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDED216728C3C00840CE5 /* DTDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D0AA42153C22B00020F18B /* DTDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDED416728C3C00840CE5 /* DTCachedFile.h in Headers */ = {isa = PBXBuildFile; fileRef = A7494E51154190F500BDDB7D /* DTCachedFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,7 +41,6 @@
 		7DECDED916728C3C00840CE5 /* DTAsyncFileDeleter.h in Headers */ = {isa = PBXBuildFile; fileRef = A77DD39C14E648AD00F34B03 /* DTAsyncFileDeleter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDEDA16728C3C00840CE5 /* DTPieProgressIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D8C2A815643C4E009E94AD /* DTPieProgressIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDEDB16728C3C00840CE5 /* DTExtendedFileAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D6F2E315063448001CACDD /* DTExtendedFileAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DECDEDC16728C3C00840CE5 /* DTHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7949A3814C963F500A8CCDE /* DTHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDEDD16728C3C00840CE5 /* DTSmartPagingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4264F0155D6B5B00E39D79 /* DTSmartPagingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDEDE16728C3C00840CE5 /* DTVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = A70B4CC71486621B00873A4A /* DTVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDEDF16728C3C00840CE5 /* DTZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = A77DD40614E81AED00F34B03 /* DTZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,7 +74,6 @@
 		7DECDEFC16728C6400840CE5 /* DTAsyncFileDeleter.m in Sources */ = {isa = PBXBuildFile; fileRef = A77DD39D14E648AD00F34B03 /* DTAsyncFileDeleter.m */; };
 		7DECDEFD16728C6400840CE5 /* DTPieProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D8C2A915643C4E009E94AD /* DTPieProgressIndicator.m */; };
 		7DECDEFE16728C6400840CE5 /* DTExtendedFileAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D6F2E415063448001CACDD /* DTExtendedFileAttributes.m */; };
-		7DECDEFF16728C6400840CE5 /* DTHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7949A3914C963F500A8CCDE /* DTHTMLParser.m */; };
 		7DECDF0016728C6400840CE5 /* DTSmartPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4264F1155D6B5B00E39D79 /* DTSmartPagingScrollView.m */; };
 		7DECDF0116728C6400840CE5 /* DTVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A70B4CC81486621B00873A4A /* DTVersion.m */; };
 		7DECDF0216728C6400840CE5 /* DTZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = A77DD40714E81AEE00F34B03 /* DTZipArchive.m */; };
@@ -233,6 +232,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7D9CED3616729B760061D95B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F4DF9A147FB61500F4059A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E383C1160DFEDB00CF72D6;
+			remoteInfo = DTHTMLParser;
+		};
 		FACE182C1611CF8400758319 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7F4DF9A147FB61500F4059A /* Project object */;
@@ -249,6 +255,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				7D9CED6216729C330061D95B /* DTHTMLParser.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,7 +819,6 @@
 				7DECDED916728C3C00840CE5 /* DTAsyncFileDeleter.h in Headers */,
 				7DECDEDA16728C3C00840CE5 /* DTPieProgressIndicator.h in Headers */,
 				7DECDEDB16728C3C00840CE5 /* DTExtendedFileAttributes.h in Headers */,
-				7DECDEDC16728C3C00840CE5 /* DTHTMLParser.h in Headers */,
 				7DECDEDD16728C3C00840CE5 /* DTSmartPagingScrollView.h in Headers */,
 				7DECDEDE16728C3C00840CE5 /* DTVersion.h in Headers */,
 				7DECDEDF16728C3C00840CE5 /* DTZipArchive.h in Headers */,
@@ -914,6 +920,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7D9CED3716729B760061D95B /* PBXTargetDependency */,
 			);
 			name = "Static Library";
 			productName = DTFoundation;
@@ -1183,7 +1190,6 @@
 				7DECDEFC16728C6400840CE5 /* DTAsyncFileDeleter.m in Sources */,
 				7DECDEFD16728C6400840CE5 /* DTPieProgressIndicator.m in Sources */,
 				7DECDEFE16728C6400840CE5 /* DTExtendedFileAttributes.m in Sources */,
-				7DECDEFF16728C6400840CE5 /* DTHTMLParser.m in Sources */,
 				7DECDF0016728C6400840CE5 /* DTSmartPagingScrollView.m in Sources */,
 				7DECDF0116728C6400840CE5 /* DTVersion.m in Sources */,
 				7DECDF0216728C6400840CE5 /* DTZipArchive.m in Sources */,
@@ -1326,6 +1332,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7D9CED3716729B760061D95B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7E383C1160DFEDB00CF72D6 /* DTHTMLParser */;
+			targetProxy = 7D9CED3616729B760061D95B /* PBXContainerItemProxy */;
+		};
 		FACE182D1611CF8400758319 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A70B4CE61486637E00873A4A /* Static Library */;
