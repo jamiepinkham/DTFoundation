@@ -21,6 +21,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		7D9CEC731672978D0061D95B /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = A77DD40D14E825FC00F34B03 /* crypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9CEC741672978D0061D95B /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = A77DD40F14E825FC00F34B03 /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9CEC751672978D0061D95B /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = A77DD41114E825FC00F34B03 /* mztools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9CEC761672978D0061D95B /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = A77DD41314E825FC00F34B03 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9CEC771672978D0061D95B /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = A77DD41514E825FC00F34B03 /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9CEC79167297D70061D95B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = A77DD40E14E825FC00F34B03 /* ioapi.c */; };
+		7D9CEC7A167297D70061D95B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = A77DD41014E825FC00F34B03 /* mztools.c */; };
+		7D9CEC7B167297D70061D95B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = A77DD41214E825FC00F34B03 /* unzip.c */; };
+		7D9CEC7C167297D70061D95B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = A77DD41414E825FC00F34B03 /* zip.c */; };
 		7DECDED116728C3C00840CE5 /* DTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A70B4CC51486621B00873A4A /* DTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDED216728C3C00840CE5 /* DTDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D0AA42153C22B00020F18B /* DTDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DECDED416728C3C00840CE5 /* DTCachedFile.h in Headers */ = {isa = PBXBuildFile; fileRef = A7494E51154190F500BDDB7D /* DTCachedFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -802,6 +811,11 @@
 				7DECDED616728C3C00840CE5 /* DTPDFPage.h in Headers */,
 				7DECDED716728C3C00840CE5 /* DTActionSheet.h in Headers */,
 				7DECDED816728C3C00840CE5 /* DTASN1Parser.h in Headers */,
+				7D9CEC731672978D0061D95B /* crypt.h in Headers */,
+				7D9CEC741672978D0061D95B /* ioapi.h in Headers */,
+				7D9CEC751672978D0061D95B /* mztools.h in Headers */,
+				7D9CEC761672978D0061D95B /* unzip.h in Headers */,
+				7D9CEC771672978D0061D95B /* zip.h in Headers */,
 				7DECDED916728C3C00840CE5 /* DTAsyncFileDeleter.h in Headers */,
 				7DECDEDA16728C3C00840CE5 /* DTPieProgressIndicator.h in Headers */,
 				7DECDEDB16728C3C00840CE5 /* DTExtendedFileAttributes.h in Headers */,
@@ -1164,6 +1178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9CEC79167297D70061D95B /* ioapi.c in Sources */,
+				7D9CEC7A167297D70061D95B /* mztools.c in Sources */,
+				7D9CEC7B167297D70061D95B /* unzip.c in Sources */,
+				7D9CEC7C167297D70061D95B /* zip.c in Sources */,
 				7DECDEF516728C6400840CE5 /* DTDownload.m in Sources */,
 				7DECDEF716728C6400840CE5 /* DTCachedFile.m in Sources */,
 				7DECDEF816728C6400840CE5 /* DTPDFDocument.m in Sources */,
