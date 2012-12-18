@@ -166,11 +166,13 @@
 					NSNumber *number = [NSNumber numberWithUnsignedInteger:value];
 					
 					[_delegate parser:self foundNumber:number];
+					free(buffer);
 				}
 				else 
 				{
 					// send number as data if supported, too long for 32 bit
 					sendAsData = YES;
+					free(buffer);
 				}
 			}
 			else 
@@ -301,7 +303,7 @@
 				[_data getBytes:buffer range:dataRange];
 				
 				NSString *string = [[NSString alloc] initWithBytesNoCopy:buffer length:dataRange.length encoding:NSASCIIStringEncoding freeWhenDone:NO];
-				
+				free(buffer);
 				[_delegate parser:self foundString:string];
 			}
 			break;
@@ -316,7 +318,7 @@
 				[_data getBytes:buffer range:dataRange];
 				
 				NSString *string = [[NSString alloc] initWithBytesNoCopy:buffer length:dataRange.length encoding:NSASCIIStringEncoding freeWhenDone:NO];
-				
+				free(buffer);
 				// has to end with Z
 				NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 				formatter.dateFormat = @"yyMMddHHmmss'Z'";
